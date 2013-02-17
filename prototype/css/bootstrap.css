@@ -268,6 +268,10 @@ a:focus {
   *zoom: 1;
 }
 
+.bracket-row {
+  margin-bottom: 10px;
+}
+
 .row:before,
 .row:after {
   display: table;
@@ -3372,7 +3376,7 @@ input[type="button"].btn-block {
 .btn-primary.disabled,
 .btn-primary[disabled] {
   color: #ffffff;
-  background-color: #0044cc;
+  background-color: #000099;
   *background-color: #003bb3;
 }
 
@@ -6155,4 +6159,12 @@ a.badge:focus {
 
 .affix {
   position: fixed;
+}
+
+.custom {
+  width: 80px;
+}
+
+.region {
+  margin-bottom: 30px;
 }
