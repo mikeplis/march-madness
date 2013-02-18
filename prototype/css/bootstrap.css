@@ -268,10 +268,6 @@ a:focus {
   *zoom: 1;
 }
 
-.bracket-row {
-  margin-bottom: 10px;
-}
-
 .row:before,
 .row:after {
   display: table;
@@ -2012,7 +2008,7 @@ table {
 
 .table th,
 .table td {
-  padding: 8px;
+  padding: 0px;
   line-height: 20px;
   text-align: left;
   vertical-align: top;
@@ -6161,10 +6157,14 @@ a.badge:focus {
   position: fixed;
 }
 
-.custom {
-  width: 80px;
+.bracket td {
+  text-align: center;
+  vertical-align: middle;
+  border: solid 1px black;
 }
 
-.region {
-  margin-bottom: 30px;
+.bracket th {
+  text-align: center;
+  vertical-align: middle;
+  border: solid 3px black;
 }
