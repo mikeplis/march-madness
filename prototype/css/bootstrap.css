@@ -6161,16 +6161,9 @@ a.badge:focus {
   vertical-align: middle;
 }
 
-.top {
-  border-bottom: solid 1px black;
-}
-
-td span {
-  text-decoration:underline;
-}
-
 .bracket th {
   text-align: center;
   vertical-align: middle;
   border: solid 3px black;
 }
+
