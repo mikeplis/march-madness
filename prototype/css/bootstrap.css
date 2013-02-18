@@ -6159,7 +6159,7 @@ a.badge:focus {
 .bracket td {
   text-align: center;
   vertical-align: middle;
-  border: solid 1px red;
+  border: solid 1px black;
 }
 
 .bracket th {
